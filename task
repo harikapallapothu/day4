@@ -68,5 +68,91 @@ Task1:
        console.log(typeof(b));
        
      7) 
+        var a = "10";
+        var b = 10;
+        if(a==b)
+        {
+        console.log("a and b; data type is different but value is same");
+        }
+        if (a===b)
+
+        {
+            console.log("both are equal");
+        }
+        var c = 5;
+        if(a ==c){
+            if(a==c)
+        {
+            console.log("data type is different but value is same");
+        }
+        if (a===c)
+
+        {
+            console.log("both are equal");
+        }
+
+            console.log("not equal")
+
+        }
+        if(a!=c)
+        {
+            console.log("a is not equal to c");
+        }
+______________________________________________________________________________________________________
+       Task 2:
+       
+       1)
+       var a = userInput[0];
+        var square = a*a;
+        console.log(square);
+        
+       2)var a = 10, b=20;
+        var c =b;
+        b = a;
+        a = c;
+        console.log(a +" "+b);
+        
+       3) var a = 10, b=20, c = 30;
+          console.log(a+b+c);
+       
+       4) var celcius = userInput[0];
+            var far = ((9*celcius)/5)+32;
+            console.log(far);
+       5) var meters = userInput[0];
+            var miles = meters*0.000621371;
+            console.log(miles);
+        6)
+        var pounds = userInput[0];
+        var kg = pounds*0.453592;
+        console.log(kg);
+        7)
+        var runs_Scored = userInput[0];
+        var times_Out = userInput[1];
+        var bat_Average = runs_Scored/times_Out;
+        console.log(bat_Average);
+        8)
+        var test = parseInt(userInput[0]);
+        var test1 = parseInt(userInput[1]);
+        var test2 = parseInt(userInput[2]);
+        var test3 = parseInt(userInput[3]);
+        var test4 = parseInt(userInput[4]);
+        var avg = (test + test1 + test2 + test3 + test4)/5;
+        console.log(avg);
+        9)
+        var num = userInput[0];
+        var num2 = userInput[1];
+        var power = Math.pow(num , num2);
+        console.log(power);
+        10)
+        var P = userInput[0];
+        var t = userInput[1];
+        var r = userInput[2];
+        var s_I = (P*t*r)/100;
+        console.log(s_I);
+        11)
+        
+
+
+
 
     
