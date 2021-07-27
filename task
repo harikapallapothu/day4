@@ -150,7 +150,43 @@ ________________________________________________________________________________
         var s_I = (P*t*r)/100;
         console.log(s_I);
         11)
+        var side = parseInt(userInput[0]);
+        var area = (Math.sqrt(3)/4)*side;
+        console.log(area);
+        12)
+        var base = userInput[0];
+        var height = userInput[1];
+        var area = 0.5*base*height;
+        console.log(area);
+        13)
+        var radius = userInput[0];
+        var area = (4/3)*radius*radius*radius*(22/7);
+        console.log(area);
+        14)
+        var base = userInput[0];
+        var height = userInput[1];
+        var len = userInput[2];
+        var area = base*height*len;
+        console.log(area);
+        15)
+        var base = userInput[0];
+        var height = userInput[1];
+        var area = base*height*0.5;
+        console.log(area);
+        16)
+        var actual_Cost = userInput[0];
+        var sold_Cost = userInput[1];
+        var discount = actual_Cost- sold_Cost;
+        console.log(discount);
+        17)
+        var radius = parseInt(userInput[0]);
+        var dia = 2*radius;
+        var cir = (22/7)*dia;
+        var area = (22/7)*radius*radius;
+        console.log(dia, cir, area);
+        18)
         
+
 
 
 
